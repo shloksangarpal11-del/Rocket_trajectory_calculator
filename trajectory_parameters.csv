@@ -1,0 +1,4 @@
+Launch_Name,M_Initial,M_Dry,Thrust,ISP,Theta,Cd,Area
+Heavy_Lifter,5000,1500,150000,250,75,0.4,3.14
+Supersonic_Test,2000,500,100000,280,45,0.25,0.78
+Cold_Gas_RCS_Proto,4,1,150,65,50,0.3,0.05
