@@ -52,11 +52,9 @@ RCS_Proto,10,3,150,220,85,0.40,0.05
 1. State Vector
 The trajectory solver tracks five state variables over time:
 
-S(t) = [ x  z  v_x  v_z  m ]^T
-
-**$x, z$: Downrange distance ($\text{m}$) and Altitude ($\text{m}$)
+S(t) = [ x  z  v_x  v_z  m ]^T ; $x, z$: Downrange distance ($\text{m}$) and Altitude ($\text{m}$)
 $v_x, v_z$: Horizontal and Vertical velocity components ($\text{m/s}$)
-$m$: Instantaneous vehicle mass ($\text{kg}$)**
+$m$: Instantaneous vehicle mass ($\text{kg}$)
 ---
 2. Mass Flow Rate
 Propellant depletion rate $\dot{m}$ is calculated as:
