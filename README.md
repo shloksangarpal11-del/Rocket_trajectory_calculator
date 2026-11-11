@@ -105,8 +105,8 @@ Successfully loaded 3 launch configurations from trajectory_parameters.csv
   └─ Impact Angle:   67.5° (relative to ground)
 ```
 Additionally, a high-resolution Matplotlib plot renders downrange distance against altitude for visual comparison across all test cases.
----
-🚀 How to Run
+
+How to Run
 Clone or download this repository.
 Ensure your `trajectory_parameters.csv` file is populated with valid rocket parameters.
 Run the Python script:
