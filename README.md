@@ -51,9 +51,9 @@ RCS_Proto,10,3,150,220,85,0.40,0.05
 🧮 Mathematical & Physical Model
 1. State Vector
 The trajectory solver tracks five state variables over time:
-$$
-S(t) = \begin{bmatrix} x \\ z \\ v_x \\ v_z \\ m \end{bmatrix}
-$$
+
+S(t) = [ x  z  v_x  v_z  m ]^T
+
 $x, z$: Downrange distance ($\text{m}$) and Altitude ($\text{m}$)
 $v_x, v_z$: Horizontal and Vertical velocity components ($\text{m/s}$)
 $m$: Instantaneous vehicle mass ($\text{kg}$)
